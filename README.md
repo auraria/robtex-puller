@@ -4,13 +4,13 @@ This script is to pull data from robtex about an IP address or Domain to help an
 This is actively being dev-ed. please let me know if you run into any issues and provide the IP or URL.
 
 
-REQUIREMENTS:
+# REQUIREMENTS:
 Python3
 
-#IMPORTS:
+# IMPORTS:
 bs4, json, requests, re, sys, urlib3
 
-Example usage:
+# Example usage:
 
 python robtex.py 92.118.37.26
 92.118.37.26 | International Hosting Company | AS35606 | ON Telecoms NETBLOCK | Greece
