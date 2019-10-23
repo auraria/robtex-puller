@@ -19,9 +19,8 @@ if __name__ == "__main__":
     jobs = []
 
 
-    def fun1(blah):
-        #blah = argv
-        for i in blah:
+    def fun1(argv):
+        for i in argv:
             if re.match(r"[\d\.]+", i) is not None:
                 url = 'https://www.robtex.com/ip-lookup/{}'.format(i)
                 robtexip.append(url)
